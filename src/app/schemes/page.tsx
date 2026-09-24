@@ -17,7 +17,6 @@ export default function SchemesPage() {
       <SchemeCards />
       <EmpaneledList />
       <NoSchemeSection />
-      <CounterQuestions />
     </>
   );
 }

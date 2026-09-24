@@ -43,7 +43,7 @@ export default function SchemesHero() {
           </div>
 
           <h1 className={styles.h1}>
-            <span className="en">Schemes and insurance</span>
+            <span className="en">Schemes and Insurance</span>
             <span className="ta" lang="ta">திட்டங்கள் மற்றும் காப்பீடு</span>
           </h1>
 

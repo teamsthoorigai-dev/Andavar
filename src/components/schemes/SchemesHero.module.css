@@ -53,7 +53,7 @@
 }
 
 .lede {
-  font-size: clamp(20px, 2.5vw, 24px);
+  font-size: 18px;
   color: var(--muted);
   line-height: 1.5;
   max-width: 38ch;
