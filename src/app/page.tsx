@@ -7,6 +7,7 @@ import FactStrip from "@/components/home/FactStrip";
 import QuoteSection from "@/components/home/QuoteSection";
 import BeforeYouComeSection from "@/components/about/BeforeYouComeSection";
 import VisitSection from "@/components/home/VisitSection";
+import FAQSection from "@/components/home/FAQSection";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <QuoteSection />
       <BeforeYouComeSection />
       <VisitSection />
+      <FAQSection />
     </>
   );
 }
