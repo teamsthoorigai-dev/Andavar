@@ -23,7 +23,7 @@ export default function TreatmentsHero() {
           </div>
 
           <h1 className={styles.h1}>
-            <span className="en">Comprehensive Eye Care <span>Under One Roof</span>.</span> <span className="ta" lang="ta">முழுமையான கண் பராமரிப்பு <span>ஒரே கூரையின் கீழ்</span>.</span>
+            <span className="en">Eye Treatments and Services <span>in Pollachi</span></span> <span className="ta" lang="ta">பொள்ளாச்சியில் <span>கண் சிகிச்சைகள் மற்றும் சேவைகள்</span></span>
           </h1>
 
           <p className={styles.lede}>

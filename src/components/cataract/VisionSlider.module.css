@@ -146,10 +146,18 @@
   border: 1px solid var(--line);
 }
 
-.infoCard h3 {
+.infoCard .infoTitle {
+  font-family: var(--font-head);
   font-size: 16px;
+  font-weight: 700;
+  line-height: 1.02;
+  text-wrap: balance;
   color: var(--ink);
   margin-bottom: 8px;
+}
+
+[data-lang="ta"] .infoCard .infoTitle {
+  line-height: 1.2;
 }
 
 .infoCard p {

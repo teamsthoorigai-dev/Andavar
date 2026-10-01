@@ -66,8 +66,9 @@ export default function StoriesGrid() {
         <Reveal className={styles.grid} stagger={0.08} targets=":scope > *">
           {REVIEWS.map((review, i) => (
             <div key={i} className={styles.card}>
-              <div className={styles.stars} aria-label="5 out of 5 stars">
-                ★★★★★
+              <div className={styles.stars}>
+                <span aria-hidden="true">★★★★★</span>
+                <span className="sr-only"><span className="en">5 out of 5 stars</span><span className="ta" lang="ta">5க்கு 5 நட்சத்திரங்கள்</span></span>
               </div>
               <div className={styles.treatment}>
                 <span className="en">{review.treatmentEn}</span>

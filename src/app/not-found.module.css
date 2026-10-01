@@ -1,0 +1,45 @@
+.section {
+  padding: clamp(80px, 10vw, 120px) 0 clamp(100px, 12vw, 160px);
+  background: var(--bg-gradient);
+  text-align: center;
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+}
+
+.h1 {
+  font-size: clamp(32px, 5vw, 52px);
+  letter-spacing: -0.02em;
+  max-width: 18ch;
+}
+
+.lede {
+  font-size: 18px;
+  color: var(--muted);
+  max-width: 46ch;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 58px;
+  padding: 0 30px;
+  margin-top: 10px;
+  border-radius: 999px;
+  font-size: 16px;
+  font-weight: 600;
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  color: #fff;
+  box-shadow: var(--shadow-md);
+  transition: transform 0.25s var(--ease-soft), box-shadow 0.25s var(--ease-soft);
+  will-change: transform;
+}
+
+.btn:hover {
+  box-shadow: var(--shadow-lg);
+}

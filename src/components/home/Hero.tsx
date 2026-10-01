@@ -43,8 +43,8 @@ export default function Hero() {
           </div>
 
           <h1 className={styles.h1}>
-            <span className="en">Trusted Eye Care in Pollachi Since 2013.</span>
-            <span className="ta" lang="ta">பொள்ளாச்சியில் நம்பிக்கையான கண் சிகிச்சை</span>
+            <span className="en">Trusted Eye Hospital in Pollachi Since 2013.</span>
+            <span className="ta" lang="ta">2013 முதல் பொள்ளாச்சியின் நம்பிக்கையான கண் மருத்துவமனை</span>
           </h1>
 
           <p className={styles.lede}>

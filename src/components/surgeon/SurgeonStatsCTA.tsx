@@ -7,7 +7,7 @@ const STATS = [
   { value: "15,000+", labelEn: "Cataract Surgeries", labelTa: "கண்புரை அறுவை சிகிச்சைகள்" },
   { value: "1,000+", labelEn: "Vitrectomy Surgeries", labelTa: "விழித்திரை அறுவை சிகிச்சைகள்" },
   { value: "99.4%", labelEn: "Complication-Free", labelTa: "சிக்கலற்ற சிகிச்சைகள்" },
-  { value: "20+ Years", labelEn: "Clinical Leadership", labelTa: "மருத்துவத் தலைமை" },
+  { value: "20+ Years", valueTa: "20+ ஆண்டுகள்", labelEn: "Clinical Leadership", labelTa: "மருத்துவத் தலைமை" },
 ];
 
 export default function SurgeonStatsCTA() {
@@ -35,7 +35,16 @@ export default function SurgeonStatsCTA() {
           <div className={styles.statsRow}>
             {STATS.map((stat) => (
               <div key={stat.labelEn} className={styles.statCard}>
-                <div className={styles.statNumber}>{stat.value}</div>
+                <div className={styles.statNumber}>
+                  {stat.valueTa ? (
+                    <>
+                      <span className="en">{stat.value}</span>
+                      <span className="ta" lang="ta">{stat.valueTa}</span>
+                    </>
+                  ) : (
+                    stat.value
+                  )}
+                </div>
                 <div className={styles.statLabel}>
                   <span className="en">{stat.labelEn}</span> <span className="ta" lang="ta">{stat.labelTa}</span>
                 </div>

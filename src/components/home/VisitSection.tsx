@@ -12,7 +12,7 @@ export default function VisitSection() {
             <span className="en">Find Us in Pollachi</span> <span className="ta" lang="ta">எங்களை வந்து சந்தியுங்கள்</span>
           </span>
           <h2 className={styles.h2}>
-            <span className="en">Opposite LMHSS School, Palladam Road</span> <span className="ta" lang="ta">LMHSS பள்ளிக்கு எதிரில், பல்லடம் சாலையில்</span>
+            <span className="en">Hospital Location and Consultation Hours</span> <span className="ta" lang="ta">மருத்துவமனை முகவரி மற்றும் ஆலோசனை நேரங்கள்</span>
           </h2>
           <p className={styles.lede}>
             <span className="en">
@@ -36,7 +36,7 @@ export default function VisitSection() {
               <span className="en">◎ Open in Maps</span> <span className="ta" lang="ta">◎ வரைபடத்தில் பார்க்க (Maps)</span>
             </MagneticButton>
             <MagneticButton href="/about" className={styles.btnSecondary}>
-              <span className="en">Visiting details</span> <span className="ta" lang="ta">பார்வை நேர விவரங்கள்</span>
+              <span className="en">Visiting details</span> <span className="ta" lang="ta">வருகை விவரங்கள்</span>
             </MagneticButton>
           </div>
         </Reveal>
@@ -48,20 +48,20 @@ export default function VisitSection() {
             </div>
             <div className={styles.rowValue}>
               <span className="en">
-                No. 73, Palladam Road,<br />
+                No. 73, T. Kottampatti Bus Stop, Palladam Road,<br />
                 Opposite LMHSS School,<br />
                 T. Kottampatti, Pollachi – 642002
               </span>
               <span className="ta" lang="ta">
-                எண். 73, பல்லடம் சாலை,<br />
+                எண். 73, டி. கொட்டாம்பட்டி பேருந்து நிறுத்தம், பல்லடம் சாலை,<br />
                 LMHSS பள்ளிக்கு எதிரில்,<br />
-                T. கொட்டாம்பட்டி, பொள்ளாச்சி – 642002
+                டி. கொட்டாம்பட்டி, பொள்ளாச்சி – 642002
               </span>
             </div>
           </div>
           <div className={styles.row}>
             <div className={styles.rowLabel}>
-              <span className="en">Consulting hours</span> <span className="ta" lang="ta">பார்வை நேரங்கள்</span>
+              <span className="en">Consulting hours</span> <span className="ta" lang="ta">ஆலோசனை நேரங்கள்</span>
             </div>
             <div className={styles.rowValue}>
               <span className="en">

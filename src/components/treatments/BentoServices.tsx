@@ -169,6 +169,15 @@ export default function BentoServices() {
   return (
     <section className={styles.section}>
       <div className="container">
+        <Reveal className={styles.head}>
+          <span className="eyebrow">
+            <span className="en">Under one roof</span> <span className="ta" lang="ta">ஒரே கூரையின் கீழ்</span>
+          </span>
+          <h2 className={styles.h2}>
+            <span className="en">Our Eye Care Services</span> <span className="ta" lang="ta">எங்கள் கண் மருத்துவ சேவைகள்</span>
+          </h2>
+        </Reveal>
+
         <Reveal className={styles.grid} stagger={0.05}>
           {SERVICES.map((s) => {
             const Icon = s.icon;

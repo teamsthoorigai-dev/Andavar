@@ -5,9 +5,10 @@ import PremiumLenses from "@/components/cataract/PremiumLenses";
 import VisitSection from "@/components/home/VisitSection";
 
 export const metadata: Metadata = {
-  title: "Cataract Surgery | Shri Andavar Eye Care",
+  title: "Cataract Surgery in Pollachi | Shri Andavar Eye Care",
   description:
-    "Advanced micro-incision cataract surgery with premium IOL options. See the difference clear vision makes.",
+    "Micro-incision cataract surgery with standard and premium IOL options at Shri Andavar Eye Care, Palladam Road, Pollachi. Consultations Monday to Saturday.",
+  alternates: { canonical: "/cataract-surgery/" },
 };
 
 export default function CataractSurgeryPage() {

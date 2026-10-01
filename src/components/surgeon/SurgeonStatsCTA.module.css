@@ -96,6 +96,11 @@
   margin-bottom: 8px;
 }
 
+/* Tamil script runs wider; keep "20+ ஆண்டுகள்" inside the card. */
+[data-lang="ta"] .statNumber :global(.ta) {
+  font-size: 24px;
+}
+
 .statLabel {
   font-size: 13px;
   text-transform: uppercase;

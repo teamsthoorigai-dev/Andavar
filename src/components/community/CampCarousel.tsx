@@ -8,7 +8,8 @@ import styles from "./CampCarousel.module.css";
 interface CampCarouselProps {
   titleEn: string;
   titleTa: string;
-  date: string;
+  dateEn: string;
+  dateTa: string;
   descriptionEn: string;
   descriptionTa: string;
   images: string[];
@@ -18,7 +19,8 @@ interface CampCarouselProps {
 export default function CampCarousel({
   titleEn,
   titleTa,
-  date,
+  dateEn,
+  dateTa,
   descriptionEn,
   descriptionTa,
   images,
@@ -44,7 +46,10 @@ export default function CampCarousel({
         
         {/* Text Content */}
         <Reveal className={styles.content} stagger={0.1}>
-          <div className={styles.date}>{date}</div>
+          <div className={styles.date}>
+            <span className="en">{dateEn}</span>
+            <span className="ta" lang="ta">{dateTa}</span>
+          </div>
           <h2 className={styles.title}>
             <span className="en">{titleEn}</span>
             <span className="ta" lang="ta">{titleTa}</span>
@@ -73,10 +78,12 @@ export default function CampCarousel({
           {/* Controls */}
           {images.length > 1 && (
             <div className={styles.controls}>
-              <button className={styles.arrowBtn} onClick={scrollLeft} aria-label="Previous image">
+              <button className={styles.arrowBtn} onClick={scrollLeft}>
+                <span className="sr-only"><span className="en">Previous image</span><span className="ta" lang="ta">முந்தைய படம்</span></span>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m15 18-6-6 6-6"/></svg>
               </button>
-              <button className={styles.arrowBtn} onClick={scrollRight} aria-label="Next image">
+              <button className={styles.arrowBtn} onClick={scrollRight}>
+                <span className="sr-only"><span className="en">Next image</span><span className="ta" lang="ta">அடுத்த படம்</span></span>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6"/></svg>
               </button>
             </div>

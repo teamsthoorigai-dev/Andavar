@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Reveal from "@/components/Reveal";
+import MagneticButton from "@/components/MagneticButton";
 import styles from "./SurgeonProfileTop.module.css";
 
 const QUALIFICATIONS = [
@@ -83,13 +84,13 @@ export default function SurgeonProfileTop() {
         <div className={styles.contentCol}>
           <Reveal stagger={0.05}>
             <span className={styles.eyebrow}><span className="en">Ophthalmology Leadership</span> <span className="ta" lang="ta">கண் மருத்துவத் தலைமை</span></span>
-            <h1 className={styles.title}><span className="en">Dr. A. Raghuram</span> <span className="ta" lang="ta">டாக்டர் ஏ. ரகுராம்</span></h1>
+            <h2 className={styles.title}><span className="en">Dr. A. Raghuram</span> <span className="ta" lang="ta">டாக்டர் ஏ. ரகுராம்</span></h2>
             <div className={styles.bio}>
               <p>
                 <strong><span className="en">At a large chain you are seen by whoever is on duty that day.</span> <span className="ta" lang="ta">ஒரு பெரிய மருத்துவமனை சங்கிலியில், அந்த நாளில் பணியில் இருக்கும் யாரோ ஒருவரால் நீங்கள் பார்க்கப்படுவீர்கள்.</span></strong>
               </p>
               <p>
-                <span className="en">Dr. Raghuram combines decades of specialized surgical expertise with a deeply personal approach to patient care. Focusing exclusively on advanced ophthalmology, he has established international benchmarks in cataract and complex reconstructive eye procedures.</span> <span className="ta" lang="ta">டாக்டர் ரகுராம், பல தசாப்த கால சிறப்பு அறுவை சிகிச்சை நிபுணத்துவத்துடன், நோயாளிகளின் பராமரிப்பில் ஆழ்ந்த தனிப்பட்ட அணுகுமுறையை ஒருங்கிணைக்கிறார். மேம்பட்ட கண் மருத்துவத்தில் மட்டுமே கவனம் செலுத்தும் இவர், கண்புரை மற்றும் சிக்கலான மறுசீரமைப்பு கண் சிகிச்சை முறைகளில் சர்வதேச அளவுகோல்களை நிறுவியுள்ளார்.</span>
+                <span className="en">Dr. Raghuram combines decades of specialized surgical expertise with a deeply personal approach to patient care. A distinguished ophthalmologist in Pollachi with expertise spanning both advanced Retina Care and Cataract Surgery, providing comprehensive management of retinal conditions alongside specialized cataract care.</span> <span className="ta" lang="ta">டாக்டர் ரகுராம், பல தசாப்த கால சிறப்பு அறுவை சிகிச்சை நிபுணத்துவத்துடன், நோயாளிகளின் பராமரிப்பில் ஆழ்ந்த தனிப்பட்ட அணுகுமுறையை ஒருங்கிணைக்கிறார். மேம்பட்ட விழித்திரை சிகிச்சை மற்றும் கண்புரை அறுவை சிகிச்சை ஆகிய இரண்டிலும் நிபுணத்துவம் பெற்ற பொள்ளாச்சியின் புகழ்பெற்ற கண் மருத்துவரான இவர், விழித்திரை நோய்களுக்கான முழுமையான சிகிச்சையுடன் சிறப்பு கண்புரை சிகிச்சையையும் வழங்கி வருகிறார்.</span>
               </p>
             </div>
           </Reveal>
@@ -107,6 +108,18 @@ export default function SurgeonProfileTop() {
                   </div>
                 </div>
               ))}
+            </div>
+          </Reveal>
+
+          <Reveal delay={0.3}>
+            <div className={styles.actions}>
+              <MagneticButton href="/our-surgeons" className={styles.btnPrimary}>
+                <span className="en">Meet our surgeons</span> <span className="ta" lang="ta">எங்கள் மருத்துவர்களைச் சந்திக்க</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <path d="M5 12h14" />
+                  <path d="m12 5 7 7-7 7" />
+                </svg>
+              </MagneticButton>
             </div>
           </Reveal>
         </div>

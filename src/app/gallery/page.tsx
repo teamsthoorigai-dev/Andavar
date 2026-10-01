@@ -3,8 +3,10 @@ import GalleryHero from "@/components/gallery/GalleryHero";
 import GallerySection from "@/components/gallery/GallerySection";
 
 export const metadata: Metadata = {
-  title: "Gallery",
-  description: "Take a closer look at the facilities, advanced technology, and community outreach at Shri Andavar Eye Care.",
+  title: "Hospital Gallery | Shri Andavar Eye Care, Pollachi",
+  description:
+    "Photos of the facilities, diagnostic and surgical equipment, and free community eye camps at Shri Andavar Eye Care, Pollachi.",
+  alternates: { canonical: "/gallery/" },
 };
 
 const FACILITIES_IMAGES = [
@@ -133,7 +135,7 @@ const COMMUNITY_IMAGES = [
 
 export default function GalleryPage() {
   return (
-    <main>
+    <>
       <GalleryHero />
       
       <GallerySection
@@ -165,6 +167,6 @@ export default function GalleryPage() {
         descriptionTa="தேவைப்படுபவர்களுக்கு தரமான கண் மருத்துவத்தைக் கொண்டு சேர்த்தல். கிராமப்புறங்களில் தடுக்கக்கூடிய பார்வை இழப்பை ஒழிப்பதில் எங்களின் தொடர்ச்சியான அர்ப்பணிப்பு."
         items={COMMUNITY_IMAGES}
       />
-    </main>
+    </>
   );
 }

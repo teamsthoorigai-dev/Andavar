@@ -59,12 +59,12 @@ export default function VisionSlider() {
         <Reveal>
           <div className={styles.header}>
             <h1 className={styles.title}>
-              <span className="en">See the difference clear vision makes.</span>
-              <span className="ta" lang="ta">தெளிவான பார்வை ஏற்படுத்தும் மாற்றத்தைக் காணுங்கள்.</span>
+              <span className="en">Cataract Surgery in Pollachi</span>
+              <span className="ta" lang="ta">பொள்ளாச்சியில் கண்புரை அறுவை சிகிச்சை</span>
             </h1>
             <p className={styles.subtitle}>
-              <span className="en">Drag the handle to compare before and after cataract surgery.</span>
-              <span className="ta" lang="ta">கண்புரை அறுவை சிகிச்சைக்கு முன் மற்றும் பின் உள்ள பார்வையை ஒப்பிட கைப்பிடியை இழுக்கவும்.</span>
+              <span className="en">See the difference clear vision makes. Drag the handle to compare before and after cataract surgery.</span>
+              <span className="ta" lang="ta">தெளிவான பார்வை ஏற்படுத்தும் மாற்றத்தைக் காணுங்கள். கண்புரை அறுவை சிகிச்சைக்கு முன் மற்றும் பின் உள்ள பார்வையை ஒப்பிட கைப்பிடியை இழுக்கவும்.</span>
             </p>
           </div>
         </Reveal>
@@ -131,10 +131,10 @@ export default function VisionSlider() {
             {/* Floating Info Card */}
             <div className={styles.infoCardWrapper}>
               <div className={styles.infoCard}>
-                <h3>
+                <p className={styles.infoTitle}>
                   <span className="en">A visual guide, not a medical result</span>
                   <span className="ta" lang="ta">இது ஒரு காட்சி வழிகாட்டி மட்டுமே, மருத்துவ முடிவு அல்ல</span>
-                </h3>
+                </p>
                 <p>
                   <span className="en">An illustration of how cataract surgery can lift the cloudiness and yellowing that many patients describe.</span>
                   <span className="ta" lang="ta">நோயாளிகள் விவரிக்கும் மங்கலான மற்றும் மஞ்சள் நிறப் பார்வையை கண்புரை அறுவை சிகிச்சை எவ்வாறு தெளிவாக்குகிறது என்பதற்கான ஒரு எடுத்துக்காட்டு.</span>

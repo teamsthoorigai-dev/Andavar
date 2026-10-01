@@ -135,11 +135,11 @@ export default function Header() {
           <button
             type="button"
             className={`${styles.menuBtn} ${menuOpen ? styles.open : ""}`}
-            aria-label="Menu"
             aria-expanded={menuOpen}
             onClick={() => setMenuOpen((v) => !v)}
           >
-            <span />
+            <span className={styles.bars} />
+            <span className="sr-only"><span className="en">Menu</span><span className="ta" lang="ta">மெனு</span></span>
           </button>
         </div>
       </div>

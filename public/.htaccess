@@ -1,0 +1,15 @@
+# Apache config for Hostinger shared hosting (copied into out/ by next build)
+ErrorDocument 404 /404.html
+
+RewriteEngine On
+
+# Runs first so http://www.../index.html also lands in one hop.
+# /index.html -> /, /about/index.html -> /about/
+# THE_REQUEST only matches what the browser asked for, so Apache's internal DirectoryIndex lookup doesn't loop.
+RewriteCond %{THE_REQUEST} \s/+((?:[^\s?]*/)?)index\.html[\s?] [NC]
+RewriteRule ^ https://shriandavareyecare.in/%1 [L,R=301]
+
+# One canonical origin: https://shriandavareyecare.in (no www). Keep in sync with SITE_URL in src/lib/site.ts.
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} ^www\. [NC]
+RewriteRule ^ https://shriandavareyecare.in%{REQUEST_URI} [L,R=301]

@@ -50,7 +50,7 @@ export default function TreatSection() {
             <span className="en">What we treat</span> <span className="ta" lang="ta">நாங்கள் அளிக்கும் சிகிச்சைகள்</span>
           </span>
           <h2 className={styles.h2}>
-            <span className="en">Start with what you have noticed.</span> <span className="ta" lang="ta">நீங்கள் கவனித்த அறிகுறிகளிலிருந்து தொடங்குங்கள்.</span>
+            <span className="en">Eye Conditions and Treatments</span> <span className="ta" lang="ta">கண் பாதிப்புகளும் சிகிச்சைகளும்</span>
           </h2>
         </Reveal>
 

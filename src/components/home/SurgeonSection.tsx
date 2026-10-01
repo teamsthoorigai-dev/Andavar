@@ -50,9 +50,9 @@ export default function SurgeonSection() {
               className={styles.image}
             />
           </div>
-          <span className="eyebrow">
-            <span className="en">Your surgeon</span> <span className="ta" lang="ta">உங்கள் மருத்துவர்</span>
-          </span>
+          <h1 className={`eyebrow ${styles.pageTitle}`}>
+            <span className="en">Our Eye Specialists in Pollachi</span> <span className="ta" lang="ta">பொள்ளாச்சியில் எங்கள் கண் சிறப்பு மருத்துவர்கள்</span>
+          </h1>
           <h2 className={styles.h2}>
             <span className="en">Dr. A. Raghuram</span> <span className="ta" lang="ta">டாக்டர் ஏ. ரகுராம்</span>
           </h2>

@@ -26,6 +26,12 @@ const EMPANELED_LIST = [
   "THE NEW INDIA ASSURANCE COMPANY",
 ];
 
+// Insurer names stay in English; only the descriptive qualifiers are translated.
+const toTamil = (partner: string) =>
+  partner
+    .replace("(GOVT and PENSIONERS)", "(அரசு ஊழியர்கள் மற்றும் ஓய்வூதியதாரர்கள்)")
+    .replace("(formerly ", "(முன்பு ");
+
 export default function EmpaneledList() {
   return (
     <section className={styles.section}>
@@ -47,7 +53,7 @@ export default function EmpaneledList() {
           {EMPANELED_LIST.map((partner, index) => (
              <div key={index} className={styles.card}>
                <span className="en">{partner}</span>
-               <span className="ta" lang="ta">{partner}</span>
+               <span className="ta" lang="ta">{toTamil(partner)}</span>
              </div>
           ))}
         </Reveal>

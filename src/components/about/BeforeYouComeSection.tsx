@@ -39,8 +39,8 @@ export default function BeforeYouComeSection() {
             <span className="ta" lang="ta">வருவதற்கு முன்</span>
           </span>
           <h2 className={styles.h2}>
-            <span className="en">Four things that make the visit shorter.</span>
-            <span className="ta" lang="ta">பரிசோதனை நேரத்தைக் குறைக்கும் நான்கு விஷயங்கள்.</span>
+            <span className="en">Preparing for Your Eye Examination</span>
+            <span className="ta" lang="ta">கண் பரிசோதனைக்குத் தயாராகுதல்</span>
           </h2>
         </Reveal>
 

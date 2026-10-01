@@ -32,16 +32,16 @@ export default function CostSection() {
             <span className="en">Cost</span> <span className="ta" lang="ta">செலவு</span>
           </span>
           <h2 className={styles.h2}>
-            <span className="en">Ask about the money. Everybody does.</span> <span className="ta" lang="ta">பணம் பற்றி கேளுங்கள். எல்லாரும் கேட்பதுதான்.</span>
+            <span className="en">Insurance, Government Schemes and Treatment Costs</span> <span className="ta" lang="ta">காப்பீடு, அரசுத் திட்டங்கள் மற்றும் சிகிச்சைச் செலவுகள்</span>
           </h2>
           <p className={styles.lede}>
             <span className="en">
-              It is the question people are most embarrassed to ask and most
+              Cost is the question people are most embarrassed to ask and most
               worried about. Here are the schemes we accept, stated plainly.
             </span>
             {" "}
             <span className="ta" lang="ta">
-              இது மக்கள் கேட்க மிகவும் தயங்கும் மற்றும் அதிகம் கவலைப்படும் கேள்வியாகும். நாங்கள் ஏற்கும் காப்பீட்டுத் திட்டங்கள் இங்கே தெளிவாகக் கொடுக்கப்பட்டுள்ளன.
+              செலவு என்பது மக்கள் கேட்க மிகவும் தயங்கும் மற்றும் அதிகம் கவலைப்படும் கேள்வியாகும். நாங்கள் ஏற்கும் காப்பீட்டுத் திட்டங்கள் இங்கே தெளிவாகக் கொடுக்கப்பட்டுள்ளன.
             </span>
           </p>
           <Link href="/schemes" className={styles.btnGhost}>

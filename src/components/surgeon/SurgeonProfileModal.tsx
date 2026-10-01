@@ -20,6 +20,10 @@ function T({ en, ta }: { en: ReactNode; ta: ReactNode }) {
 
 const BIOGRAPHY = [
   {
+    en: "First doctor in India to introduce intravitreal anti-VEGF injections for the treatment of retinal diseases in 2005, following advanced training under Dr. Richard Spade in New York, USA.",
+    ta: "2005-ல் அமெரிக்காவின் நியூயார்க்கில் டாக்டர் ரிச்சர்ட் ஸ்பேட் அவர்களிடம் மேம்பட்ட பயிற்சி பெற்ற பின், விழித்திரை நோய்களுக்குக் கண்ணுக்குள் செலுத்தப்படும் ஆன்டி-VEGF ஊசி சிகிச்சையை இந்தியாவில் முதன்முதலில் அறிமுகப்படுத்திய மருத்துவர்.",
+  },
+  {
     en: "Completed his MBBS at Madras Medical College from 1985 to 1990.",
     ta: "1985 முதல் 1990 வரை மெட்ராஸ் மருத்துவக் கல்லூரியில் MBBS படிப்பை முடித்தார்.",
   },
@@ -40,8 +44,8 @@ const BIOGRAPHY = [
     ta: "2000-ல் கோயம்புத்தூர் அரவிந்த் கண் மருத்துவமனையின் விட்ரியோ-ரெட்டினா துறையில் மருத்துவ அலுவலராகச் சேர்ந்தார்.",
   },
   {
-    en: "Cleared his FRCS (GLASG) in 2001.",
-    ta: "2001-ல் FRCS (கிளாஸ்கோ) தேர்வில் தேர்ச்சி பெற்றார்.",
+    en: "Cleared his FRCS at Glasgow University, Scotland, in 2001.",
+    ta: "2001-ல் ஸ்காட்லாந்தின் கிளாஸ்கோ பல்கலைக்கழகத்தில் FRCS தேர்வில் தேர்ச்சி பெற்றார்.",
   },
   {
     en: "Became a consultant in the Department of Vitreo-Retina in 2003 at Aravind Eye Hospital, Coimbatore.",
@@ -52,12 +56,12 @@ const BIOGRAPHY = [
     ta: "2003-ல் கண்காணிப்புப் பயிற்சிக்காக ஐக்கிய ராஜ்ஜியம் சென்றார்.",
   },
   {
-    en: "Travelled to the United States for observation and advanced training at Johns Hopkins Hospital, Baltimore and macular consultants in New York under Professor Dr. Richard Spade and Professor Dr. Yanuzi (2005).",
-    ta: "பால்டிமோர் ஜான்ஸ் ஹாப்கின்ஸ் மருத்துவமனையிலும், நியூயார்க்கில் பேராசிரியர் டாக்டர் ரிச்சர்ட் ஸ்பேட் மற்றும் பேராசிரியர் டாக்டர் யானுசி ஆகியோரின் கீழ் மாகுலர் ஆலோசகர்களிடமும் கண்காணிப்பு மற்றும் மேம்பட்ட பயிற்சிக்காக அமெரிக்கா சென்றார் (2005).",
+    en: "Advanced Clinical Observation and Training at Johns Hopkins Hospital, Baltimore, and Macular Consultants, New York, under the guidance of Professor Dr. Richard Spade and Professor Dr. Yanuzi (2005).",
+    ta: "பால்டிமோர் ஜான்ஸ் ஹாப்கின்ஸ் மருத்துவமனை மற்றும் நியூயார்க் மாகுலர் கன்சல்டன்ட்ஸில், பேராசிரியர் டாக்டர் ரிச்சர்ட் ஸ்பேட் மற்றும் பேராசிரியர் டாக்டர் யானுசி ஆகியோரின் வழிகாட்டுதலின் கீழ் மேம்பட்ட மருத்துவக் கண்காணிப்பு மற்றும் பயிற்சி (2005).",
   },
   {
-    en: "Started his freelancing practice in Pollachi, Coimbatore, Erode, and Salem in 2008. Also joined PSG Hospital, Coimbatore, as a Visiting Consultant.",
-    ta: "2008-ல் பொள்ளாச்சி, கோயம்புத்தூர், ஈரோடு மற்றும் சேலத்தில் தனது சுயாதீன மருத்துவப் பணியைத் தொடங்கினார். மேலும் கோயம்புத்தூர் PSG மருத்துவமனையில் வருகைதரு ஆலோசகராகவும் இணைந்தார்.",
+    en: "Established independent clinical practice across Pollachi, Coimbatore, Erode, and Salem in 2008. Concurrently served as a Visiting Consultant at PSG Hospitals, Coimbatore.",
+    ta: "2008-ல் பொள்ளாச்சி, கோயம்புத்தூர், ஈரோடு மற்றும் சேலம் ஆகிய இடங்களில் சுயாதீன மருத்துவப் பணியை நிறுவினார். அதே காலகட்டத்தில் கோயம்புத்தூர் PSG மருத்துவமனைகளில் வருகைதரு ஆலோசகராகவும் பணியாற்றினார்.",
   },
 ];
 
@@ -99,7 +103,7 @@ const WORK = [
     periodEn: "2008 – Present",
     periodTa: "2008 – தற்போது வரை",
     en: "Chief Medical Officer – Shri Andavar Eye Care and Retina Centre, Pollachi.",
-    ta: "தலைமை மருத்துவ அலுவலர் – ஸ்ரீ ஆண்டவர் ஐ கேர் அண்ட் ரெட்டினா சென்டர், பொள்ளாச்சி.",
+    ta: "தலைமை மருத்துவ அலுவலர் – ஸ்ரீ ஆண்டவர் கண் மருத்துவமனை, பொள்ளாச்சி.",
   },
   {
     periodEn: "2003 – 2008",
@@ -165,7 +169,7 @@ const PUBLICATIONS = [
 const RURAL_WORK = [
   {
     en: "Dr. A. Raghuram runs Shri Andavar Eye Care and Retina Centre in Pollachi, situated in the rural area of Coimbatore District.",
-    ta: "கோயம்புத்தூர் மாவட்டத்தின் கிராமப்புறப் பகுதியான பொள்ளாச்சியில் அமைந்துள்ள ஸ்ரீ ஆண்டவர் ஐ கேர் அண்ட் ரெட்டினா சென்டரை டாக்டர் ஏ. ரகுராம் நடத்தி வருகிறார்.",
+    ta: "கோயம்புத்தூர் மாவட்டத்தின் கிராமப்புறப் பகுதியான பொள்ளாச்சியில் அமைந்துள்ள ஸ்ரீ ஆண்டவர் கண் மருத்துவமனையை டாக்டர் ஏ. ரகுராம் நடத்தி வருகிறார்.",
   },
   {
     en: "The hospital regularly conducts free eye camps in the remote rural areas of Coimbatore district under the Tamilnadu Chief Minister’s Comprehensive Health Insurance Scheme (CMCHIS) & Pradhan Mantri Ayushman Bharath Arogya Yojana scheme (AB-PMJAY).",
@@ -196,7 +200,8 @@ export default function SurgeonProfileModal({ isOpen, onClose }: Props) {
   return (
     <div className={styles.overlay} onClick={onClose}>
       <div className={styles.modal} onClick={(e) => e.stopPropagation()} data-lenis-prevent>
-        <button className={styles.closeBtn} onClick={onClose} aria-label="Close modal">
+        <button className={styles.closeBtn} onClick={onClose}>
+          <span className="sr-only"><span className="en">Close</span><span className="ta" lang="ta">மூடு</span></span>
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
             <line x1="18" y1="6" x2="6" y2="18"></line>
             <line x1="6" y1="6" x2="18" y2="18"></line>

@@ -5,6 +5,16 @@
   z-index: 2;
 }
 
+.head {
+  margin-bottom: clamp(28px, 4vw, 44px);
+}
+
+.h2 {
+  font-size: clamp(28px, 4.2vw, 40px);
+  margin-top: 14px;
+  max-width: 20ch;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);

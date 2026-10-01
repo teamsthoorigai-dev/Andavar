@@ -133,6 +133,31 @@
   }
 }
 
+.actions {
+  margin-top: 36px;
+}
+
+.btnPrimary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 58px;
+  padding: 0 30px;
+  border-radius: 999px;
+  font-size: 16px;
+  font-weight: 600;
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  color: #fff;
+  box-shadow: var(--shadow-md);
+  transition: transform 0.25s var(--ease-soft), box-shadow 0.25s var(--ease-soft);
+  will-change: transform;
+}
+
+.btnPrimary:hover {
+  box-shadow: var(--shadow-lg);
+}
+
 .specCard {
   background: rgba(255, 255, 255, 0.6);
   border: 1px solid rgba(15, 42, 68, 0.08);

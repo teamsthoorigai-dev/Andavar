@@ -177,9 +177,9 @@
   flex: 0 0 auto;
 }
 
-.menuBtn span,
-.menuBtn span::before,
-.menuBtn span::after {
+.menuBtn .bars,
+.menuBtn .bars::before,
+.menuBtn .bars::after {
   content: "";
   display: block;
   width: 20px;
@@ -190,26 +190,26 @@
   transition: transform 0.25s var(--ease-soft), opacity 0.2s;
 }
 
-.menuBtn span::before {
+.menuBtn .bars::before {
   position: absolute;
   top: -6px;
 }
 
-.menuBtn span::after {
+.menuBtn .bars::after {
   position: absolute;
   top: 6px;
 }
 
-.menuBtn.open span {
+.menuBtn.open .bars {
   background: transparent;
 }
 
-.menuBtn.open span::before {
+.menuBtn.open .bars::before {
   top: 0;
   transform: rotate(45deg);
 }
 
-.menuBtn.open span::after {
+.menuBtn.open .bars::after {
   top: 0;
   transform: rotate(-45deg);
 }

@@ -41,6 +41,12 @@
   object-fit: cover;
 }
 
+/* Page H1 styled as the eyebrow label; undo the global heading font and line-height. */
+.pageTitle {
+  font-family: var(--font-body);
+  line-height: inherit;
+}
+
 .h2 {
   font-size: clamp(28px, 4.2vw, 40px);
   margin: 14px 0 18px;

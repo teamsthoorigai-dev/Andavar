@@ -6,7 +6,7 @@ export type ClinicStatus = {
   callLabelTa: string;
 };
 
-const SESSIONS = [
+export const SESSIONS = [
   { start: 10 * 60, end: 14 * 60 },
   { start: 17 * 60, end: 19 * 60 },
 ];
